@@ -15,8 +15,10 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.w3schools.com/w3css/img_snowtops.jpg'),
+            //Take img from network.
+            //image: NetworkImage(
+            //'https://www.w3schools.com/w3css/img_snowtops.jpg'),
+            image: AssetImage('images/weather.jpg'),
           ),
         ),
       ),
